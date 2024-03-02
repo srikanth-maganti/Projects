@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div >
+        <form  action="http://localhost:3000/home" method="post">
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" id="username" placeholder="Enter Name :"><br><br>
+            <label for="id" >Enter your ID:</label>
+            <input type="text" name="id" id="id" placeholder="Enter your ID:"><br><br>
+            <label for="branch">Select branch :</label>
+            <select name="branch" id="branch">
+                <option value="cse" selected>Computer Science</option>
+                <option value="eee">EEE</option>
+                <option value="mech">MECH</option>
+                <option value="ece">ECE</option>
+                <option value="civil">CIVIL</option>
+            </select><br><br>
+            <label for="email" >Enter Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email :"><br><br>
+            <label for="phone">Enter Phone number:</label>
+            <input type="text" name="phno" id="phno"><br><br>
+            <input type="reset" name="reset" id="reset"> &nbsp;&nbsp; 
+            <input type="submit" name="submit" id="submit">
+        </form>
+    </div>
+</body>
+</html>
